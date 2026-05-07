@@ -18,7 +18,7 @@ const ContactForm = ({onSubmit}) => {
     <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
     <input type="text" placeholder="Phone" value={phone} onChange={(e) => setPhone(e.target.value)} />
     <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-    <button type="submit">Add Contact</button>
+    <button type="submit">AddContact</button>
    </form>
   )
 }
