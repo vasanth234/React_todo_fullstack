@@ -1,0 +1,149 @@
+.delete-button {
+	margin-left: auto;
+	background: #ef4444;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 18px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.2s, box-shadow 0.2s;
+	box-shadow: 0 1px 4px rgba(239,68,68,0.08);
+}
+.delete-button:hover {
+	background: #b91c1c;
+	box-shadow: 0 2px 8px rgba(239,68,68,0.18);
+}
+.contact-list-container {
+	max-width: 600px;
+	margin: 40px auto;
+	background: #f9fafb;
+	border-radius: 12px;
+	box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+	padding: 32px 24px;
+  width :500px;
+}
+
+.contact-list-container h2 {
+	text-align: center;
+	margin-bottom: 24px;
+	color: #3730a3;
+	letter-spacing: 1px;
+}
+
+.contact-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+
+.contact-list-item {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+	padding: 12px 20px;
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	transition: box-shadow 0.2s;
+	font-size: 1.08rem;
+}
+.contact-list-item:hover {
+	box-shadow: 0 4px 16px rgba(99,102,241,0.10);
+}
+.contact-name {
+	font-weight: 600;
+	color: #1d4ed8;
+	min-width: 110px;
+	border-left: 4px solid #2563eb;
+	padding-left: 12px;
+	margin-right: 12px;
+	background: #f1f5f9;
+	border-radius: 4px;
+}
+.contact-details {
+	color: #374151;
+	font-size: 1rem;
+	word-break: break-all;
+}
+
+.contact-form {
+	max-width: 520px;
+	margin: 40px auto;
+	padding: 32px 24px;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.contact-form input {
+	padding: 12px 14px;
+	border: 1px solid #d1d5db;
+	border-radius: 6px;
+	font-size: 1rem;
+	outline: none;
+	transition: border 0.2s;
+}
+.contact-form input:focus {
+	border-color: #6366f1;
+	box-shadow: 0 0 0 2px #6366f133;
+}
+
+.contact-form button {
+	padding: 12px 0;
+	background: #6366f1;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.contact-form button:hover {
+	background: #4f46e5;
+}
+
+/* Edit mode styles for ContactList */
+.edit-mode {
+	background: #fef9c3;
+	border: 2px solid #facc15;
+	box-shadow: 0 2px 12px rgba(250,204,21,0.10);
+}
+
+.edit-input {
+	border: 1.5px solid #facc15;
+	background: #fefce8;
+	border-radius: 6px;
+	padding: 10px 12px;
+	font-size: 1rem;
+	margin-right: 10px;
+}
+
+.edit-button {
+	background: #facc15;
+	color: #7c4700;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 18px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background 0.2s, box-shadow 0.2s;
+	box-shadow: 0 1px 4px rgba(250,204,21,0.08);
+}
+.edit-button:hover {
+	background: #fde047;
+	color: #a16207;
+	box-shadow: 0 2px 8px rgba(250,204,21,0.18);
+}
+
